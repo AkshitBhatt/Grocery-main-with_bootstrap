@@ -1,0 +1,94 @@
+@media (max-width:765px){
+  .shopByC{
+    gap: 2rem;
+  }
+
+  .card1 {
+    height: 20vh; 
+    width: 50%;
+  }
+  .card {
+    height: 60vh;
+    width: 90%;
+  }
+  .sha img {
+    height: 50%;
+    width: 50%;
+  }
+  .Aic{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .account,.vegetable {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    margin: 0 0;
+  }
+  .location {
+    width: 50%;
+  }
+
+  .off1 img {
+    width: 50%;
+  }
+
+  .img-cc{
+    width: 70%;
+    height: 40rem !important;
+  }
+
+  .Snacks,.mb-1, .dell {
+    font-size: 3rem;
+  }
+  .stars img{
+    width: 4rem;
+    height: 3rem;
+  }
+
+  .addToCartbtntxt {
+    width: 35%;
+    height: 6vh;
+  }
+
+  .addToCartbtntxt span {
+    font-size: 3rem;
+  }
+
+  /* .card-body p del {
+    font-size: 3rem;
+  } */
+ 
+ 
+}
+
+
+@media (max-width:560px){
+  .shopByC{
+    gap: 2rem;
+  }
+
+  .card1 {
+    height: 20vh;
+    width: 90%;
+    padding: 1rem;
+  }
+
+  .card {
+    height: 65vh;
+    width: 90%;
+  }
+  .sha img {
+    height: 50%;
+    width: 50%;
+  }
+  .Aic{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+ 
+}

@@ -1,0 +1,495 @@
+@font-face {
+  font-family: sfprobold; 
+  src: url('../font/sfprobold');
+}
+
+@font-face {
+  font-family: blackitalic;
+  src: url('../font/SFPRODISPLAYBLACKITALIC.OTF');
+}
+
+@font-face {
+  font-family: heavyitalic;
+  src: url("../font/SFPRODISPLAYHEAVYITALIC.OTF");
+}
+
+@font-face {
+  font-family: lightitalic;
+  src: url("../font/SFPRODISPLAYLIGHTITALIC.OTF");
+}
+
+@font-face {
+  font-family: laymedium;
+  src: url("../font/SFPRODISPLAYMEDIUM.OTF");
+}
+
+@font-face {
+  font-family: layregular;
+  src: url("../font/SFPRODISPLAYREGULAR.OTF");
+}
+
+@font-face {
+  font-family: laysemibold;
+  src: url("../font/SFPRODISPLAYSEMIBOLDITALIC.OTF");
+}
+
+@font-face {
+  font-family: laythinitalic;
+  src: url("../font/SFPRODISPLAYTHINITALIC.OTF");
+}
+
+@font-face {
+  font-family: layultraitalic;
+  src: url("../font/SFPRODISPLAYULTRALIGHTITALIC.OTF");
+}
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: heavyitalic !important; */
+    overflow-x: hidden;
+    font-size: 1vw;
+    /* border: 1px solid black; */
+}
+
+.address select {
+  font-size: 0.8rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+}
+
+.search {
+  width: 50%;
+  border: 2px solid;
+}
+
+.search input {
+  width: 100%;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+.search input{
+  font-size: 0.8rem;
+}
+.search img {
+  width: 8%;
+}
+
+.account span {
+  font-size: 0.8rem;
+}
+
+.AcDetail select {
+  font-size: 0.8rem;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.Vegetables {
+  padding-left: 4rem;
+  /* font-size: 0.2rem;  */
+}
+
+.homeicon{
+  padding-left: 2rem;
+}
+
+.homicon img{
+  width: 100%;
+
+}
+
+.homicon img{
+  width: 1.4rem;
+}
+.addtxt2{
+  margin-top: .2rem;
+}
+
+.located{
+  font-size: .5rem;
+  margin-top: .3rem;
+}
+.city{
+  font-size: .6rem;
+}
+.Info{
+  font-size: .5rem;
+  color: #3BD28C;
+  margin-top: .2rem;
+}
+.vegetable{
+  /* font-size: .8rem; */
+  font-weight: 400;
+  color: black;
+
+  /* border: none; */
+}
+
+.vegetable select {
+  border: none;
+  font-family: layregular "sans-serif";
+  font-size: 0.8rem;
+}
+.back{
+  background-color: #E9FAF3;
+  z-index: -3;
+  padding: .7rem 0 0 0;
+  position: relative;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  position: relative;
+}
+
+
+
+.Coursel{
+  padding: 0 9rem;
+  text-align: left;
+  position: relative;
+}
+.Heading{
+  font-family: layregular,sans-serif;
+}
+
+.courselHeading h1{
+  font-size: 3.5rem;
+  font-family: layregular;
+  font-weight: 800;
+  color: #222222;
+}  
+.boldd{
+  color: #3BD28C;
+  font-family: 'blacksapro',sans-serif ;
+  font-size: 3.5rem;
+} 
+
+
+
+.courselImg img{
+  height: 27rem;
+  width: 30rem;
+}
+
+.courselDesc{
+  font-family: layregular;
+  padding-right: 2rem;
+}
+
+
+.imgbrokali img{
+  height: 8rem;
+  position: absolute;
+  bottom: 0;
+  right: 12%;
+}
+
+.orderBtn{
+  padding: .8rem 2.4rem;
+  background-color: #FFBB44;
+  border-radius: 500px;
+  outline: none;
+  border: none;
+  text-align: center;
+  color: #fff;
+  font-family: sfprobold,sans-serif;
+  cursor: pointer;
+}
+
+.courselImg{
+  position: relative;
+}
+
+.carrotImg img{
+  width: 8rem;
+  position: absolute;
+  top: 10%;
+  right: -2.6%;
+  overflow-x: hidden;
+}
+.btns{
+  position: absolute;
+  top: 50%;
+}
+.leftb{
+  position: absolute;
+  top: 40%;
+  left: .2rem;
+  padding: 2rem 1rem;
+  background-color: #fff;
+  border-radius: .4rem;
+  cursor: pointer;
+}
+
+.leftb img{
+  height: 1rem;
+  width: auto;
+}
+.rightb img{
+  height: 1rem;
+  width: auto;
+}
+.rightb{
+  position: absolute;
+  top: 40%;
+  right: .8rem;
+  padding: 2rem 1rem;
+  background-color: #fff;
+  border-radius: .4rem;
+  cursor: pointer;
+}
+
+.shopping{
+  padding: 0 4rem;
+} 
+
+.shopByC{
+  padding: 4rem 5rem 2rem 5rem;
+  background-color: #F9F9F9;
+}
+
+.shopByC h1{
+  font-family: 'sfprobold',sans-serif;
+}
+
+
+.sha{
+  border-radius: .9rem;
+}
+.sha img{
+  width: 3rem;
+  height: 5rem;
+}
+.shopping{
+  position: relative;
+}
+
+.left2{
+  position: absolute;
+  top: 58%;
+  right: -2.3%;
+  cursor: pointer;
+  
+}
+.right2{
+  position: absolute;
+  top: 58%;
+  left: 92.2%;
+  cursor: pointer;
+}
+
+.right2 img,
+.left2 img{
+  height: 4rem;
+  width: 4rem;
+  margin-top: 1rem;
+ 
+  border-radius: 50%;
+  /* background-color: white; */
+}
+
+.off{
+  padding: .6rem 1.4rem;
+  background-color: #3BD28C;
+  color: #fff;
+  border-radius: 500px;
+  text-align: center;
+  font-family: 'sfmeduim',sans-serif;
+  cursor: pointer;
+}
+
+.ppp{
+  padding: 1rem;
+}
+
+.off1{
+  padding: .4rem .1rem;
+  background-color:#E1FFF1 ;
+  color: #3BD28C;
+  width: 5rem;
+  border-radius: 500px;
+  font-size: .7rem;
+  text-align: center;
+}
+.off:hover{
+  background-color: aqua;
+}
+.off1:hover{
+  background-color: yellow;
+}
+.apple{
+  border-radius: .9rem;
+}
+
+.apple img{
+  height: 8rem;
+}
+.stars img{
+  width: .8rem;
+  height: 1rem;
+}
+.addToCartbtn{
+  padding: .2rem 0;
+  font-size: .8rem;
+  color: #fff;
+  cursor: pointer;
+}
+.addToCartbtntxt:hover {
+  background-color: green;
+}
+.addToCartbtntxt{
+  padding: .5rem 2rem;
+  background-color: #FFBB44;
+  border-radius: 500px;
+}
+.addToCartbtn img{
+  height: 1rem;
+  width: 1rem;
+}
+.Snacks{
+  font-size: .7rem;
+  text-transform: uppercase;
+  color: #3BD28C;
+}
+.snacksDesc{
+  font-size: .9rem;
+  font-family: 'sfmeduim',sans-serif;
+}
+.dell{
+  font-family: 'sfprobold',sans-serif;
+  font-size: 1rem;
+}
+.imgTokri img{
+  height: 22rem;
+  width: 100%;
+}
+.bgSucess{
+  background-color: #3BD28C !important;
+}
+
+.textTokri{
+  padding: 0 0 0 4rem;
+}
+.SpecialO{
+  font-size: 2rem;
+  color: #fff;
+  font-family: 'lightfspro',sans-serif;
+  font-weight: 800;
+}
+.Fruitsve{
+  font-size: 3.5rem;
+  color: #fff;
+  font-family: 'lightfspro',sans-serif;
+  font-weight: 900;
+}
+.Dis20{
+  font-size: 3.5rem;
+  font-family: 'ItakilFs',sans-serif;
+  color: #fff;
+}
+.logoContainer{
+  border-radius: 1.5rem 1rem;
+  padding: 1rem;
+}
+.logoContainer img{
+  height: auto;
+  width: 6rem;
+  filter: grayscale(100%);
+}
+.StoriesMeal img{
+  width: 100%;
+  height: 100%;
+}
+.nameV{
+  font-size: .7rem;
+}
+
+.Date{
+  font-size: .7rem;
+  color: #BBBBBB;
+}
+.heal{
+  font-size: 1.2rem;
+  font-family: 'sfprobold',sans-serif;
+}
+
+.desc{
+  font-size: .7rem;
+}
+.readmore{
+  display: block; 
+}
+.dishmaker{
+  padding: 0 .7rem 0 .3rem;
+}
+.readmore{
+  font-size: .8rem;
+  color: #3BD28C;
+}
+.readmore img{
+  width: .8rem;
+  height: .8rem;
+}
+.how{
+  padding: 1.5rem  0 0 0;
+  font-size: 2.4rem;
+  font-family: 'sfprobold',sans-serif;
+}
+.Grocery{
+  color: #3BD28C;
+  font-size: 2.5rem;
+}
+.howcontainer{
+  padding: 2rem 6rem;
+  background-color: #F9F9F9;
+}
+.howImg img{
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.howImg{
+  padding: 1rem 0;
+}
+.howTxt h3{
+  font-size: 1.3rem;
+  padding: .6rem 0;
+  color: #222222;
+  font-family: 'sfprobold',sans-serif;
+}
+.howTxt p{
+  font-size: .8rem;
+  color: #888888;
+  padding: 0 4rem ;
+}
+
+.card {
+  /* overflow-x: hidden; */
+  
+  cursor: pointer;
+  /* overflow: hidden; */
+}
+
+.card:hover{
+  transform: scale(1.1);
+    /* transform: translateY(-1.2rem); */
+    /* box-shadow: 0 0 5px 1px lightgrey; */
+    overflow: hidden;
+} 
+
+
+.footer-brand img {
+  width: 70%;
+}
+
+
+
+
