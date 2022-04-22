@@ -51,12 +51,24 @@
     /* border: 1px solid black; */
 }
 
+
 .address select {
   font-size: 0.8rem;
   border: none;
   outline: none;
   cursor: pointer;
 
+}
+
+/* .F-Container {
+  background-color: #F9F9F9;
+
+  z-index: 1;
+} */
+
+.row{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
 .search {
@@ -255,11 +267,14 @@ input {
 .shopByC{
   padding: 4rem 5rem 2rem 5rem;
   background-color: #F9F9F9;
+  /* gap: 2rem; */
 }
 
 .shopByC h1{
   font-family: 'sfprobold',sans-serif;
 }
+
+
 
 
 .sha{
@@ -478,12 +493,7 @@ input {
   /* overflow: hidden; */
 }
 
-.card:hover{
-  transform: scale(1.1);
-    /* transform: translateY(-1.2rem); */
-    /* box-shadow: 0 0 5px 1px lightgrey; */
-    overflow: hidden;
-} 
+
 
 
 .footer-brand img {
