@@ -8,12 +8,14 @@
   .search input {
     padding: 0 2rem;
     font-size: 2rem;
+    padding-top: 2.5px;
   }
   .bottomp {
     padding-bottom: 2rem;
   }
   .search {
-    width: 50%;
+    width: 60% !important;
+     margin-top: 6px;
   }
   .search img {
     height: 6rem;
@@ -25,6 +27,11 @@
     left: -9999px;
     margin: 0 0;
   }
+
+  .fz1{
+  font-size: 2rem;
+  }
+
   .account,.location {
     position: absolute;
     top: -9999px;
@@ -88,9 +95,12 @@
   }
 
   .off {
-    width: 20%;
-    height: 4rem !important;
-    font-size: 2.5rem;
+    width: 24%;
+    height: 7rem !important;
+    font-size: 3.5rem;
+    padding-top: 3px;
+      font-weight: 500;
+
   }
   .pbottom {
     padding-bottom: 3rem;
@@ -126,15 +136,31 @@
   }
 
   .card span {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 
   .card li {
     padding-bottom: 2rem;
   }
-  .h5 {
-    font-size: 2rem !important;
+  .remove1 {
+
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    margin: 0 0;
+  
   }
+
+  .big {
+    font-size: 2rem !important;
+    margin-left: -4rem;
+  }
+
+  .marginL {
+    margin-left: -4rem;
+  }
+
+  
 
   .font span {
     font-size: 1.5rem !important;
@@ -142,6 +168,26 @@
  
   .copyright{
     font-size: 2rem;
+  }
+
+  .orderBtn,.Special0 {
+    font-size: 2rem
+  }
+
+  .shadow {
+    margin-bottom: 3rem;
+  }
+
+  .sha {
+    width: 100%;
+  }
+
+  .remove {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    margin: 0 0;
+
   }
 
   
