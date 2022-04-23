@@ -525,6 +525,10 @@ input {
   width: 70%;
 }
 
+.cursor span{
+  cursor: pointer;
+}
+
 
 /* .fz1{
   font-size: 2rem;

@@ -150,15 +150,15 @@
     margin: 0 0;
   
   }
-
+/* 
   .big {
     font-size: 2rem !important;
     margin-left: -4rem;
-  }
+  } */
 
-  .marginL {
+  /* .marginL {
     margin-left: -4rem;
-  }
+  } */
 
   
 
@@ -183,10 +183,10 @@
   }
 
   .remove {
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-    margin: 0 0;
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+      margin: 0 0;
 
   }
 
